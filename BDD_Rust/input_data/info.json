@@ -1,0 +1,20 @@
+
+  {
+    "paths": {
+      "p1":{
+
+        "From": "Sydney",
+        "To": "Dubai",
+        "Duration": 1
+      },
+      "p2":{
+
+      "From": "Sydney",
+      "To": "Dubai",
+      "Duration": 1
+     }
+    }
+  }
+
+
+     
