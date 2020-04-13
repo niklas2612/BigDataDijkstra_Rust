@@ -1,18 +1,23 @@
 
-  {
-      "p1":{
+ {
 
-        "From": "Sydney",
-        "To": "Dubai",
-        "Costs": 1
-      },
-      "p2":{
+  "paths": 
+  [
+    {
+      "from": "Sydney",
+      "to": "Dubai",
+      "costs": 1
+    },
 
-      "From": "Sydney",
-      "To": "Dubai",
-      "Costs": 1
-     }
-  }
+    {
+      "from": "Mkg",
+      "to": "Marbach",
+      "costs": 5000
+    }
+  ]
+
+        
+ }
 
 
      

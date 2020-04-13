@@ -1,29 +1,11 @@
-use serde_json::{Result, Value};
-use serde_json::json;
-use std::fs::File;
-use std::io::prelude::*;
+mod input_output;
 
-fn untyped_example(data:String) -> Result<()> {
-    
-    // Parse the string of data into serde_json::Value.
-    let v: Value = serde_json::from_str(&data)?;     // make clear why & operator
-
-
-    println!("Please call {} at the number {}", v["p1"]["From"], v["To"]);
-    // Access parts of the data by indexing with square brackets.
-
-    
-
-    Ok(())
-}
+use input_output::*;
 
 fn main() {
     
-    let mut file = File::open("input_data/info.json").expect("not god");
+    let json_input=read_input();    
 
-    let mut contents = String::new();
-    file.read_to_string(&mut contents).expect("schmal");
-
-    println!("Content: \n\n{}", contents);
-    untyped_example(contents).unwrap();
+    show_input(&json_input);
+    input_parse(json_input).unwrap(); // parsing json to extract relevant data
 }
