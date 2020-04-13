@@ -9,7 +9,7 @@ fn untyped_example(data:String) -> Result<()> {
     let v: Value = serde_json::from_str(&data)?;     // make clear why & operator
 
 
-    println!("Please call {} at the number {}", v["paths"]["p1"]["From"], v["To"]);
+    println!("Please call {} at the number {}", v["p1"]["From"], v["To"]);
     // Access parts of the data by indexing with square brackets.
 
     
