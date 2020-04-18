@@ -1,0 +1,11 @@
+C:\Users\nikla_y88vj7d\OneDrive\Dokumente\DHBW\Rust\maschine\target\debug\deps\time-2ee6dfb3fb94f922.rmeta: C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\lib.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\display.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\duration.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\parse.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\sys.rs
+
+C:\Users\nikla_y88vj7d\OneDrive\Dokumente\DHBW\Rust\maschine\target\debug\deps\libtime-2ee6dfb3fb94f922.rlib: C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\lib.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\display.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\duration.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\parse.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\sys.rs
+
+C:\Users\nikla_y88vj7d\OneDrive\Dokumente\DHBW\Rust\maschine\target\debug\deps\time-2ee6dfb3fb94f922.d: C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\lib.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\display.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\duration.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\parse.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\sys.rs
+
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\lib.rs:
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\display.rs:
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\duration.rs:
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\parse.rs:
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\time-0.1.42\src\sys.rs:

@@ -1,0 +1,10 @@
+C:\Users\nikla_y88vj7d\OneDrive\Dokumente\DHBW\Rust\maschine\target\debug\deps\regex_syntax-f8e2266b49220823.rmeta: C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\lib.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\literals.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\parser.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\unicode.rs
+
+C:\Users\nikla_y88vj7d\OneDrive\Dokumente\DHBW\Rust\maschine\target\debug\deps\libregex_syntax-f8e2266b49220823.rlib: C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\lib.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\literals.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\parser.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\unicode.rs
+
+C:\Users\nikla_y88vj7d\OneDrive\Dokumente\DHBW\Rust\maschine\target\debug\deps\regex_syntax-f8e2266b49220823.d: C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\lib.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\literals.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\parser.rs C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\unicode.rs
+
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\lib.rs:
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\literals.rs:
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\parser.rs:
+C:\Users\nikla_y88vj7d\.cargo\registry\src\github.com-1ecc6299db9ec823\regex-syntax-0.3.9\src\unicode.rs:
