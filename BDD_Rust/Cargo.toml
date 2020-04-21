@@ -9,4 +9,9 @@ edition = "2018"
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
+raft = "0.5.0"
+slog = "2.5.2"
+slog-async = "2.5.0"
+slog-term = "2.5.0"
+
 
