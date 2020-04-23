@@ -7,7 +7,6 @@ use slog::{Drain, Logger};
 use std::sync::mpsc::{self, RecvTimeoutError};
 use std::thread;
 use std::time::{Duration, Instant};
-
 use raft::*;
 use raft::prelude::*;
 use raft::storage::MemStorage;
@@ -64,6 +63,7 @@ fn main() {
         ..Default::default()
     };
 
+   // let m= Message::new();
     // Create the Raft node.
     let mut r = RawNode::new(&cfg, storage, vec![]).unwrap();
                              // config, storage, list of peers
@@ -83,16 +83,17 @@ fn main() {
         loop {                      
         match receiver.recv_timeout(timeout) {
             Ok(Msg::Propose { id, cb }) => {     
-                cbs.insert(id, cb); // replicat raft log for other followers; safe request ID and respective callback function
+                cbs.insert(id, cb);
+                println!("{}", id); // replicat raft log for other followers; safe request ID and respective callback function
                 r.propose(vec![], vec![id]).unwrap();        // propose: Raft node ansteuern, add request to raft log
                 //  Parameters: context, data 
                 println!("request sent");
             }
 
-
-            Ok(Msg::Raft(m)) =>
+             
+            Ok(Msg::Raft(a)) =>
             {
-                r.step(m).unwrap();  // State maschine advances (schreitet voran) with message m 
+                r.step(a).unwrap();  // State maschine advances (schreitet voran) with message m 
                 println!("advances state maschine");
             }
             Err(RecvTimeoutError::Timeout) =>
@@ -214,7 +215,7 @@ fn send_propose(logger: Logger, sender: mpsc::Sender<Msg>) {
                 }),
 
             })
-            .unwrap();
+            .unwrap();  
 
         let n = r1.recv().unwrap();
         assert_eq!(n, 0);
